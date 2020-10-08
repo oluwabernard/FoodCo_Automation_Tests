@@ -1,0 +1,318 @@
+{
+  "id": "1ba154a1-7538-4f1f-9b68-dc555cbe3fa6",
+  "version": "2.0",
+  "name": "FoodCo",
+  "url": "https://foodco.ng",
+  "tests": [{
+    "id": "6549dff2-63ba-4bca-ae3b-4c28de8a2d8d",
+    "name": "FoodCo",
+    "commands": [{
+      "id": "a5822234-53cd-49aa-b643-f27c702b100f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76cd6d73-b055-476c-8b77-6898195add2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46dad1e1-5111-4694-ae6b-a75c04e9ae0a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lazyloaded:nth-child(3)",
+      "targets": [
+        ["css=.lazyloaded:nth-child(3)", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/h1/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46978cc8-df40-424a-8ff7-3189cbcbddfa",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#nav-menu-item-20267 > a",
+      "targets": [
+        ["css=#nav-menu-item-20267 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-20267']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://foodco.ng/user-account/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d658f5f-2e0a-47e0-8659-0c0ded3b63b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-20267 > a",
+      "targets": [
+        ["css=#nav-menu-item-20267 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-20267']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://foodco.ng/user-account/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41e8f00a-e27e-484f-bb65-2207ae8594f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d126f8-e04b-41d0-aa02-f9c69b6bc991",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "mtes7272@gmail.com"
+    }, {
+      "id": "0251af5e-b3e3-46d9-a090-23d5a8a1506a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19eac897-0d97-4b0f-9e76-80dbd3ec1a96",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "MOUNTAIN12test"
+    }, {
+      "id": "7690ed9c-985b-437b-a557-639eec2ed2dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.form-row:nth-child(4) > .woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div/form/p[4]/button", "xpath:idRelative"],
+        ["xpath=//p[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ed416c-853c-4194-a7ac-788b65d41aba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lagos",
+      "targets": [
+        ["linkText=Lagos", "linkText"],
+        ["css=.wh_popups_flybox_switch:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Lagos')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lagos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4970e9dc-a8c5-424f-9fef-825933ee3f96",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.wh_flybox_popup_content",
+      "targets": [
+        ["css=.wh_flybox_popup_content", "css:finder"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1f8e17-41ee-4245-8b43-e773ede3ae87",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.Lagos",
+      "targets": [
+        ["css=.Lagos", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Lagos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54b8616d-fd7f-4a08-b445-a55976f5b6d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Lagos",
+      "targets": [
+        ["css=.Lagos", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Lagos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175fcca3-d35a-4e28-803f-ce7e9d25b269",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav-menu-item-3339 > a",
+      "targets": [
+        ["css=#nav-menu-item-3339 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Household')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-3339']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//foodco.ng/?product_cat=household')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "HOUSEHOLD"
+    }, {
+      "id": "3b0463ad-d617-4e45-acb4-e65a07ea6787",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-3339 > a",
+      "targets": [
+        ["css=#nav-menu-item-3339 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Household')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-3339']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//foodco.ng/?product_cat=household')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ee7850-87d4-44d8-9ac0-d36c704e87ec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.product-category:nth-child(2) .thumb-info-wrapper",
+      "targets": [
+        ["css=.product-category:nth-child(2) .thumb-info-wrapper", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f3c8673-9c63-440f-ad26-a74987b837a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-category:nth-child(2) .thumb-info-wrapper",
+      "targets": [
+        ["css=.product-category:nth-child(2) .thumb-info-wrapper", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21be7c5e-4759-4dcb-b024-d2c1941cba6e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.post-29593 .inner",
+      "targets": [
+        ["css=.post-29593 .inner", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/ul/li/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5ff0a02-a62b-43e4-9561-648b9443931d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.post-30106 .inner",
+      "targets": [
+        ["css=.post-30106 .inner", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/ul/li[2]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "103f0b36-9507-4438-8159-ec30d0fd63b6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.post-29583 .inner",
+      "targets": [
+        ["css=.post-29583 .inner", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/ul/li[3]/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d9616f-1070-4e65-8efb-bcda06293929",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav-menu-item-6558 > a",
+      "targets": [
+        ["css=#nav-menu-item-6558 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-6558']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//foodco.ng/user-account/customer-logout/?_wpnonce=731f85aef9')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": "LOG OUT"
+    }, {
+      "id": "7944e59e-8464-4621-a870-2c2066286337",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-6558 > a",
+      "targets": [
+        ["css=#nav-menu-item-6558 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//li[@id='nav-menu-item-6558']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//foodco.ng/user-account/customer-logout/?_wpnonce=731f85aef9')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff15293e-4c42-4648-9fc9-822fa3f8680d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirm and log out",
+      "targets": [
+        ["linkText=Confirm and log out", "linkText"],
+        ["css=.woocommerce-message > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm and log out')]", "xpath:link"],
+        ["xpath=//div[@id='content']/article/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://foodco.ng/user-account/customer-logout/?_wpnonce=619546f0aa')]", "xpath:href"],
+        ["xpath=//article/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirm and log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed467f4e-a164-4deb-b35b-19581c6fb72f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dcd020bf-f3fa-4318-b5e2-76d14f902157",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6549dff2-63ba-4bca-ae3b-4c28de8a2d8d"]
+  }],
+  "urls": ["https://foodco.ng/"],
+  "plugins": []
+}
